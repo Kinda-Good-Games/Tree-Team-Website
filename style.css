@@ -1,4 +1,19 @@
-html, body {
-  height: 100%;
-  width: 100%;
+:root {
+    --white: rgb(230, 225, 225);
+    --green: #348100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav img {
+    margin: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    height: 35px;
+    width: 35px;
+    float: right;
 }
