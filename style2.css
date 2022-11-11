@@ -1,0 +1,7 @@
+.InfoCard{
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+    font-size: 75px;
+    box-shadow: 5px 2;
+}
