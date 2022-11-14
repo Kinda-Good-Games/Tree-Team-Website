@@ -1,10 +1,7 @@
 ----- TO DO -----
 
 ////ADD////
-1. sidebar 
+2. flipCard
 
 ////FIX OR CHANGE////
-
-1. nav-button
-
-
+3. responsive
