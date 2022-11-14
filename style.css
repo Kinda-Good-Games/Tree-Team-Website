@@ -1,7 +1,7 @@
-/*Important*/
+/*-----------------------Important-----------------------*/
 :root {
     --white: rgb(230, 225, 225);
-    --lightgreen: #458a40;
+    --lightgreen: #58b852;
     --normgreen: #1f7718;
     --darkgreen: #368601;
     --verydarkgreen: #205000;
@@ -13,14 +13,19 @@
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: visible;
+    scroll-behavior: smooth;
 }
 
-/*Sections*/
+/*-----------------------Sections-----------------------*/
 
 
 .header {
-    min-height: 100vh;
-    background: linear-gradient( var(--lightgreen), var(--normgreen));
+    min-height: 125vh;
+    background-image: url('./bäume/headerback.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .main {
@@ -59,33 +64,63 @@
     background: linear-gradient(var(--verydarkgreen), #000);
 }
 
-/*Header*/
+/*-----------------------Header-----------------------*/
 
 
+
+
+
+/*Navbar*/
 .nav {
-    height: 100px;
+    height: 140px;
+    overflow-y: hidden;
 }
 
 .nav img {
     margin-top: 50px;
-    margin-right: 50px;
-    border-radius: 10px;
-    border: 2px solid black;
+    margin-left: 50px;
+    border-radius: 50%;
     padding: 5px;
-    height: 50px;
-    width: 50px;
-    float: right;
+    height: 70px;
+    width: 70px;
+    float: left;
     cursor: pointer;
 }
 
-
-.header-vecbaum {
-    height: 500px;
-    width: 500px;
-    margin-top: 400px;
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
 }
 
-  
+
+.nav-ul {
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    background-color: #458A40;
+    left: 1370px;
+    margin-left: 25px;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.nav-ul li {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-li {
+    padding-left: 25px;
+}
+
+
+
+/*Überschrift*/
+
 .header-h1 {
     position: absolute;
     top: 200px;
@@ -96,6 +131,7 @@
     user-select: none;
     color: #fff;
     font-weight: 800;
+    z-index: 2;
     overflow: hidden;
     transition: .5s;
 }
@@ -107,15 +143,16 @@
     top: 0;
     left: 0;
     width: 0;
-    color: #000;
+    color: #458A40;
     white-space: nowrap;
+    z-index: 3;
     overflow: hidden;
     transition: width 275ms ease;
 }
 
 .header-h1:hover {
     transform: translateY(-20px);
-    color: #000;
+    color: #458A40;
 }
 
 .header-h1:hover::before {
@@ -123,17 +160,20 @@
 }
 
 
+/*Karte im Header*/
+
 .head-card {
     position: absolute;
     background: url(./bäume/trees.png);
     color: #fff;
     text-shadow: 2px 2px 5px black;
     font-weight: 700;
-    margin-top: 430px;
+    z-index: 2;
+    margin-top: 300px;
     padding: 25px;
     padding-top: 70px;
     line-height: 1.8;
-    margin-left: 600px;
+    margin-left: 200px;
     filter: blur(3px);
     width: 500px;
     height: 300px;
@@ -152,28 +192,42 @@
     color: #fff;
     padding: 25px;
     width: 500px;
-    left: 600px;
+    z-index: 2;
+    left: 198px;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 460px;
+    margin-top: 340px;
     font-weight: 700;
 }
 
 .head-card-text h3 {
     font-weight: 900;
+    z-index: 2;
     font-size: 25px;
     text-decoration: dotted;
     overflow: hidden;
 }
 
 
-.left-img{
-    float: right;
-    margin-right: 40px;
-    height: 600px;
-    width: 600px;
-    margin-top: 130px;  
+
+
+/*extra*/
+.gradient {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow-y: visible;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    min-height: 125vh;
+    width: 100%;
+    background: linear-gradient( transparent, transparent,  var(--normgreen));
+}
+
+.active {
+    text-decoration: underline;
+    color: #58b852;
 }
 
 mark {
@@ -185,10 +239,62 @@ mark {
     border-radius: 3px;
 }
 
+.left-img{
+    float: right;
+    z-index: 2;
+    margin-right: 40px;
+    height: 600px;
+    width: 600px;
+    margin-top: 130px;  
+}
 
-/*MEDIA QUERIES*/
+
+
+/*-----------------------MEDIA QUERIES-----------------------*/
 
 @media only screen and (max-width: 600px) {
+
+    /*-----------------------Header-----------------------*/
+
+
+    .header {
+        min-height: 100vh;
+    }
+
+
+    /*Nav*/
+    .nav {
+        width: 200px;
+    }
+
+    .nav-ul {
+        display: flex;
+        color: rgb(214, 12, 12);
+        top: 40px;
+        left: 80px;
+        width: 350px;
+    }
+    
+    .nav-ul li {
+        font-weight: 500;
+        padding-left: 0px;
+        padding-right: 15px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .nav img {
+        margin-top: 38px;
+        margin-left: 10px;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        float: left;
+        cursor: pointer;
+    }
+
+
+    /*Überschrift*/
     .header-h1 {
         font-size: 50px;
         top: 100px;
@@ -197,49 +303,18 @@ mark {
         font-family: 'Bungee Shade', cursive;
     }
 
-    .nav img {
-        margin-top: 20px;
-        margin-right: 20px;
-        border-radius: 10px;
-        border: 2px solid black;
-        padding: 5px;
-        height: 50px;
-        width: 50px;
-        float: right;
-        cursor: pointer;
-    }
 
-    .header {
-        min-height: 100vh;
-    }
-
-    .left-img{
-        position: absolute;
-        top: 100px;
-        left: 150px;
-        height: 200px;
-        width: 200px;
-        border: 5px solid rgb(0, 212, 46);
-        border-radius: 50%;
-    }
-
-    .header-vecbaum {
-        height: 300px;
-        width: 300px;
-        margin-left: 100px;
-        margin-top: 700px;
-    }
-
+    /*Karte*/
     .head-card {
         position: absolute;
         filter: blur(3px);
         margin-top: 370px;
         width: 440px;
         padding-top: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 25px;
+        margin-right: 200px;
         border-radius: 20px;
-
+        left: 0;
     }
 
     .head-card-text {
@@ -253,7 +328,7 @@ mark {
         font-family: 'Poppins', sans-serif;
         text-align: center;
         margin-top: 390px;
-        margin-left:10px;
+        margin-left:15px;
         left: 0;
         width: 450px;
         font-weight: 700;
@@ -265,5 +340,21 @@ mark {
         text-decoration: dotted;
         overflow: hidden;
         border-radius: 5px;
+    }
+
+
+    /*Extra*/
+    .left-img{
+        position: absolute;
+        top: 100px;
+        left: 150px;
+        height: 200px;
+        width: 200px;
+        border: 5px solid rgb(0, 212, 46);
+        border-radius: 50%;
+    }
+
+    .gradient {
+        min-height: 100vh;
     }
   }
