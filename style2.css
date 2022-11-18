@@ -1,17 +1,124 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
-.InfoCard{
-    background-color: greenyellow;
-    border-radius: 10px;
+.InfoCard {
+    background-color: rgb(37, 180, 25);
+    color: rgb(224, 224, 224);
+    border-radius: 40px;
     border: 2px solid darkgreen;
-    font-size: 75px;
-    box-shadow: 5px 2;
+    font-size: 60px;
     position: absolute;
-    top: 50%;
+    top: 77%;
     left: 50%;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 30px;
     transform: translate(-50%, -50%);
+    box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 3px 4px 2px rgba(78, 78, 78, 0.533);
+}
+
+.InfoCard2 {
+    background-color: rgb(37, 180, 25);
+    color: rgb(224, 224, 224);
+    border-radius: 40px;
+    border: 2px solid darkgreen;
+    font-size: 60px;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    transform: translate(-50%, -50%);
+    box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 3px 4px 2px rgba(78, 78, 78, 0.533);
+}
+
+.header {
+    color: white;
+    font-size: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20%;
+    border-radius: 15px;
+    left: 40%;
+    top: 6%;
     text-align: center;
+    background-color: darkgray;
+    position: absolute;
+}
+
+.goal {
+    position: absolute;
+    font-size: 40px;
+    top: 30%;
+    left: 42%;
+    color: white;
+    text-align: center;
+}
+
+body {
+    height: 2000px;
+    background-image: url("./stadtwald-cologne_edit0.png");
+    background-size: 100% 100%;
+}
+
+.nav {
+    height: 140px;
+    overflow-y: hidden;
+}
+
+.how {
+    position: absolute;
+    font-size: 40px;
+    top: 120%;
+    left: 40%;
+    color: white;
+    text-align: center;
+}
+
+.nav img {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    height: 70px;
+    width: 70px;
+    float: left;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.nav-ul {
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    background-color: #458A40;
+    left: 1370px;
+    margin-left: 25px;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: none;
+}
+
+.nav-ul,
+li {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-li {
+    padding-left: 25px;
 }
