@@ -1,0 +1,7 @@
+----- TO DO -----
+
+////ADD////
+2. flipCard
+
+////FIX OR CHANGE////
+3. responsive
