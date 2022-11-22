@@ -73,7 +73,6 @@
 /*Navbar*/
 .nav {
     height: 140px;
-    overflow-y: hidden;
 }
 
 .nav img {
@@ -91,6 +90,8 @@ a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 700;
+    user-select: var(--darkgreen);
+    z-index: 9999;
 }
 
 
@@ -105,16 +106,16 @@ a {
     font-size: 35px;
     padding: 20px;
     border-radius: 10px;
-    text-shadow: 2px 2px 5px black;
 }
 
-.nav-ul li {
+.nav-ul a {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
 .nav-li {
     padding-left: 25px;
+    user-select: var(--darkgreen);
 }
 
 
@@ -275,9 +276,10 @@ mark {
         width: 350px;
     }
     
-    .nav-ul li {
+    .nav-ul a {
         font-weight: 500;
-        padding-left: 0px;
+        padding-left: 10px;
+        font-weight: 500;
         padding-right: 15px;
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
