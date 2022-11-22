@@ -15,6 +15,7 @@
     box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
     font-family: 'Londrina Solid', cursive;
     text-shadow: 3px 4px 2px rgba(78, 78, 78, 0.533);
+    text-align: center;
 }
 
 .InfoCard2 {
@@ -34,10 +35,12 @@
     box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
     font-family: 'Londrina Solid', cursive;
     text-shadow: 3px 4px 2px rgba(78, 78, 78, 0.533);
+    text-align: center;
 }
 
 .header {
     color: white;
+    font-family: 'Rubik Distressed', cursive;
     font-size: 70px;
     padding-left: 30px;
     padding-right: 30px;
@@ -48,15 +51,6 @@
     text-align: center;
     background-color: darkgray;
     position: absolute;
-}
-
-.goal {
-    position: absolute;
-    font-size: 40px;
-    top: 30%;
-    left: 42%;
-    color: white;
-    text-align: center;
 }
 
 body {
@@ -70,13 +64,24 @@ body {
     overflow-y: hidden;
 }
 
+
+.goal {
+    position: absolute;font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    top: 30%;
+    left: 40%;
+    color: white;
+    text-shadow: black 7px 4px 15px;
+    text-align: center;
+}
 .how {
     position: absolute;
     font-size: 40px;
-    top: 120%;
-    left: 40%;
+    top: 115%;
+    left: 36%;
     color: white;
-    text-align: center;
+    text-shadow: black 7px 4px 15px;
+    text-align: center;font-family: 'Bungee Shade', cursive;
 }
 
 .nav img {
@@ -121,4 +126,85 @@ li {
 
 .nav-li {
     padding-left: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        height: 1500px;
+        background-image: url("./stadtwald-cologne_edit0.png");
+        background-size: 100% 100%;
+    }
+
+    .header {
+        color: white;
+        font-size: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20%;
+        border-radius: 15px;
+        left: 27%;
+        top: 6%;
+        text-align: center;
+        background-color: darkgray;
+        position: absolute;
+    }
+    .InfoCard {
+        background-color: rgb(37, 180, 25);
+        color: rgb(224, 224, 224);
+        border-radius: 40px;
+        border: 2px solid darkgreen;
+        font-size: 25px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        padding-left: 10px;
+        padding-top: 25px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        transform: translate(-50%, -50%);
+        box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+        font-family: 'Londrina Solid', cursive;
+        text-shadow: 3px 4px 2px rgba(78, 78, 78, 0.533);
+        text-align: center;
+    }
+
+    .goal {
+        position: absolute;
+        font-size: 40px;
+        top: 30%;
+        left: 33%;
+        color: white;
+        text-align: center;
+    }
+
+    .how {
+        position: absolute;
+        font-size: 40px;
+        top: 90%;
+        left: 25%;
+        color: white;
+        text-align: center;
+    }
+
+    .InfoCard2 {
+        background-color: rgb(37, 180, 25);
+        color: rgb(224, 224, 224);
+        border-radius: 40px;
+        border: 2px solid darkgreen;
+        font-size: 25px;
+        position: absolute;
+        top: 130%;
+        left: 50%;
+        padding-left: 10px;
+        padding-top: 25px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        transform: translate(-50%, -50%);
+        box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+        font-family: 'Londrina Solid', cursive;
+        text-shadow: 3px 4px 2px rgba(78, 78, 78, 0.533);
+        text-align: center;
+    }
+
 }
