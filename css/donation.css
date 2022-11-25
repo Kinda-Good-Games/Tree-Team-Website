@@ -1,0 +1,257 @@
+/*-----------------------Important-----------------------*/
+:root {
+    --white: rgb(230, 225, 225);
+    --lightgreen: #58b852;
+    --normgreen: #1f7718;
+    --darkgreen: #368601;
+    --verydarkgreen: #205000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*-----------------------Header-----------------------*/
+
+.header {
+    min-height: 100vh;
+    background-image: url('../bäume/planting-tree.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+/*Navbar*/
+.nav {
+    height: 140px;
+    width: 200px;
+}
+
+.nav img {
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    height: 70px;
+    width: 70px;
+    float: left;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+    user-select: var(--darkgreen);
+    z-index: 9999;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+.nav-ul {
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    background-color: #458A40;
+    left: 1580px;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.nav-ul a {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-li {
+    padding: 5px 6px 3px 5px;
+    user-select: var(--darkgreen);
+}
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    text-shadow: 2px 2px 8px black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    z-index: 99999;
+    border: 10px solid white;
+    box-shadow: inset 5px 10px 208px var(--verydarkgreen);
+    
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 340px;
+    transform: translate(-50%, -50%);
+}
+
+.card button {
+    height: 120px;
+    width: 120px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: var(--verydarkgreen);
+    color: var(--white);
+    transition: .5s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.card button:hover {
+    border: 3px solid white;
+    transform: translateY(-5px) scale(1.1);
+    outline: 5px solid var(--lightgreen);
+}
+
+.donate-btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    height: 50px;
+    width: 170px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #368601;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*Extra*/
+
+.don {
+    color: rgb(72, 255, 0);
+    border-right: 4px solid rgb(51, 255, 0);
+    font-size: 10;
+}
+
+.active {
+    padding-top: 5px;
+    text-decoration: underline;
+    color: #58b852;
+}
+
+.gradient {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow-y: visible;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient( transparent, transparent,  var(--normgreen));
+}
+
+
+
+/*-----------------------Media Queries-----------------------*/
+
+@media only screen and (max-width: 600px) {
+
+
+.nav img {
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    height: 70px;
+    width: 70px;
+    float: left;
+    cursor: pointer;
+}
+
+    
+.nav-ul {
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    background-color: #458A40;
+    left: 160px;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    text-shadow: 2px 2px 8px black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    z-index: 99999;
+    border: 10px solid white;
+    box-shadow: inset 5px 10px 208px var(--verydarkgreen);   
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 340px;
+    transform: translate(-50%, -50%);
+}
+
+.card button {
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: var(--verydarkgreen);
+    color: var(--white);
+    transition: .5s;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+}
