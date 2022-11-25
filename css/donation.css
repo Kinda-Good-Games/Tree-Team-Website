@@ -146,6 +146,7 @@ a {
     top: 90%;
     left: 50%;
     height: 50px;
+    cursor: pointer;
     width: 170px;
     transform: translate(-50%, -50%);
     border-radius: 10px;

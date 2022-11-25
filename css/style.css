@@ -93,6 +93,11 @@ a {
     user-select: var(--darkgreen);
     z-index: 9999;
     text-shadow: 2px 2px 5px #000;
+    transition: .5s;
+}
+
+a:hover {
+    transform: translateY(-7px);
 }
 
 
