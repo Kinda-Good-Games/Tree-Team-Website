@@ -1,0 +1,37 @@
+:root {
+    --white: rgb(230, 225, 225);
+    --lightgreen: #58b852;
+    --normgreen: #1f7718;
+    --darkgreen: #368601;
+    --verydarkgreen: #205000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.thank-you-img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 700px;
+    color: #fff;
+    text-align: center;
+    background-image: url('../Images/cdsfsdf.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.main {
+    min-height: 100vh;
+    background: linear-gradient(var(--lightgreen), var(--darkgreen)) ;
+}

@@ -135,6 +135,12 @@ a {
     outline: 5px solid var(--lightgreen);
 }
 
+.clickstt {
+    border: 3px solid white;
+    transform: translateY(-5px) scale(1.1);
+    outline: 5px solid var(--lightgreen);
+}
+
 .donate-btn {
     position: absolute;
     top: 90%;
@@ -174,6 +180,19 @@ a {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient( transparent, transparent,  var(--normgreen));
+}
+
+input {
+    height: 40px;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    bottom: 5px;
+    margin-right: 4px;
+    background-color: var(--verydarkgreen);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: var(--white);
 }
 
 
