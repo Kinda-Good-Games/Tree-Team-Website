@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 .InfoCard {
     background-color: rgb(37, 180, 25);
     color: rgb(224, 224, 224);
@@ -61,12 +68,14 @@ body {
 
 .nav {
     height: 140px;
-    overflow-y: hidden;
+    z-index: 99999;
+    overflow-x: hidden;
 }
 
 
 .goal {
-    position: absolute;font-family: 'Bungee Shade', cursive;
+    position: absolute;
+    font-family: 'Bungee Shade', cursive;
     font-size: 40px;
     top: 30%;
     left: 40%;
@@ -90,6 +99,7 @@ body {
     border-radius: 50%;
     padding: 5px;
     height: 70px;
+    z-index: 9999;
     width: 70px;
     float: left;
     cursor: pointer;
@@ -128,22 +138,38 @@ li {
     padding-left: 25px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
 
     body {
         height: 1500px;
         background-image: url("./stadtwald-cologne_edit0.png");
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: center;
     }
 
+    .nav-ul {
+        display: flex;
+        color: #fff;
+        position: absolute;
+        top: 0px;
+        
+        background-color: #458A40;
+        left: 90px;
+        margin-left: 25px;
+        font-size: 35px;
+        z-index: 999;
+        padding: 20px;
+        border-radius: 10px;
+        text-shadow: 2px 2px 5px black;
+        text-decoration: none;
+    }
     .header {
         color: white;
         font-size: 70px;
-        padding-left: 30px;
-        padding-right: 30px;
+        height: 200px;
         margin-bottom: 20%;
         border-radius: 15px;
-        left: 27%;
+        left: 0px;
         top: 6%;
         text-align: center;
         background-color: darkgray;
@@ -172,8 +198,8 @@ li {
     .goal {
         position: absolute;
         font-size: 40px;
-        top: 30%;
-        left: 33%;
+        top: 20%;
+        left: 23%;
         color: white;
         text-align: center;
     }
