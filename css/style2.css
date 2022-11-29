@@ -5,6 +5,28 @@
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: var(--darkgreen);
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: var(--lightgreen);
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--normgreen);
+}
+
+
+/*----------------------------------------------------------------------------*/
 .InfoCard {
     background-color: rgb(37, 180, 25);
     color: rgb(224, 224, 224);

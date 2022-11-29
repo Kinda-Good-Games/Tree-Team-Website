@@ -17,6 +17,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: var(--darkgreen);
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: var(--lightgreen);
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--normgreen);
+}
+
 
 /*-----------------------Header-----------------------*/
 
@@ -155,6 +175,11 @@ a {
     color: #fff;
     font-size: 25px;
     font-weight: 700;
+    transition: .5s;
+}
+
+.donate-btn:hover {
+    font-size: 30px;
 }
 
 /*Extra*/
