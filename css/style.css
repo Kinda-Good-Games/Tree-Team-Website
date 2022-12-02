@@ -47,7 +47,7 @@
     position: relative;
 }
 
-.main {
+.game {
     display: grid;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
@@ -58,14 +58,14 @@
 
 .trees {
     display: grid;
-    min-height: 100vh;
+    min-height: 40vh;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     text-align: center;
     font-size: 40px;
     place-content: center;
     justify-content: center;
-    background: linear-gradient(var(--darkgreen), var(--verydarkgreen), #163600, #000 110%);
+    background: linear-gradient(var(--darkgreen), #163600, #000);
 }
 
 .footer {
@@ -204,6 +204,7 @@ a:hover {
     position: absolute;
     top: 200px;
     left: 100px;
+    cursor: pointer;
     display: inline-block;
     font-size: 100px;
     font-family: 'Bungee Shade', cursive;
@@ -289,22 +290,110 @@ a:hover {
 }
 
 
+/*-----------------------Game-----------------------*/
+
+
+.why-1 {
+    height: 200px;
+    width: 300px;
+    background-color: var(--lightgreen);
+    box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.why-2 {
+    height: 200px;
+    width: 300px;
+    background-color: var(--lightgreen);
+    box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    left: 1500px;
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.why-3 {
+    height: 200px;
+    width: 300px;
+    background-color: var(--lightgreen);
+    box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 100px;
+    top: 1800px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.why-4 {
+    height: 200px;
+    width: 300px;
+    background-color: var(--lightgreen);
+    box-shadow: 8px 12px 6px rgba(36, 36, 36, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    left: 1500px;
+    top: 1800px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.game-frame {
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/*-----------------------Footer-----------------------*/
+
 .footer #tree {
     writing-mode: vertical-rl;
     text-orientation: upright;
+    background: linear-gradient(147deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .footer #world {
-    font-size: 30px;
+    font-size: 45px;
     margin-right: 600px;
-    margin-top: -180px;
+    margin-top: -200px;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    background: linear-gradient(147deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
-.social img {
+.footer h1 {
+    background: linear-gradient(147deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.social {
     position: absolute;
-    top: 3340px;
+    top: 2650px;
     right: 880px;
     height: 150px;
     width: 150px;
@@ -312,24 +401,12 @@ a:hover {
 
 .cprg p {
     font-size: 20px;
+    background: linear-gradient(180deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
-
-.soc-1 {
-    position: absolute;
-    top: 3350px;
-    right: 1150px;
-    margin: 0;
-    flex-direction: column;
-}
-
-.soc-2 {
-    position: absolute;
-    top: 3350px;
-    right: 750px;
-    margin: 0;
-    flex-direction: column;
-}
-
 
 
 
@@ -503,6 +580,67 @@ mark {
         overflow: hidden;
         border-radius: 5px;
     }
+
+
+/*-----------------------Footer-----------------------*/
+
+    .footer #tree {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 25px;
+        background: linear-gradient(147deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .footer #world {
+        font-size: 28px;
+        line-height: 30px;
+        margin-right: 0px;
+        margin-top: -172px;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        height: 200px;
+        width: 40px;
+        background: linear-gradient(147deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .footer h1 {
+        background: linear-gradient(147deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+        font-size: 40px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .social {
+        position: absolute;
+        z-index: 999999999;
+        top: 2365px;
+        right: 200px;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .cprg p {
+        font-size: 20px;
+        background: linear-gradient(180deg, var(--lightgreen) 0%, var(--verydarkgreen) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+
+
     
 
     /*Scroll*/
