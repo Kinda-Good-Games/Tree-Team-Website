@@ -1,7 +1,8 @@
 ----- TO DO -----
 
 ////ADD////
-2. flipCard
+-----------
 
 ////FIX OR CHANGE////
-3. responsive
+3. footer responsive
+2. bilder dinfen für den footer
