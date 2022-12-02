@@ -65,19 +65,19 @@
     font-size: 40px;
     place-content: center;
     justify-content: center;
-    background: linear-gradient(var(--darkgreen), var(--verydarkgreen));
+    background: linear-gradient(var(--darkgreen), var(--verydarkgreen), #163600, #000 110%);
 }
 
 .footer {
     display: grid;
-    min-height: 100vh;
+    min-height: 50vh;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     text-align: center;
     font-size: 40px;
     place-content: center;
     justify-content: center;
-    background: linear-gradient(var(--verydarkgreen), #000);
+    background:#000;
 }
 
 /*-----------------------Header-----------------------*/
@@ -287,6 +287,50 @@ a:hover {
     text-decoration: dotted;
     overflow: hidden;
 }
+
+
+.footer #tree {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.footer #world {
+    font-size: 30px;
+    margin-right: 600px;
+    margin-top: -180px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.social img {
+    position: absolute;
+    top: 3340px;
+    right: 880px;
+    height: 150px;
+    width: 150px;
+}
+
+.cprg p {
+    font-size: 20px;
+}
+
+.soc-1 {
+    position: absolute;
+    top: 3350px;
+    right: 1150px;
+    margin: 0;
+    flex-direction: column;
+}
+
+.soc-2 {
+    position: absolute;
+    top: 3350px;
+    right: 750px;
+    margin: 0;
+    flex-direction: column;
+}
+
+
 
 
 /*Scroll*/
