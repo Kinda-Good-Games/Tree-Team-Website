@@ -393,7 +393,7 @@ a:hover {
 
 .social {
     position: absolute;
-    top: 2650px;
+    top: 2738px;
     right: 880px;
     height: 150px;
     width: 150px;
@@ -451,6 +451,10 @@ a:hover {
     min-height: 125vh;
     width: 100%;
     background: linear-gradient( transparent, transparent,  var(--normgreen));
+}
+
+.mobile-game {
+    display: none;
 }
 
 
@@ -581,6 +585,38 @@ mark {
         border-radius: 5px;
     }
 
+    /*-----------------------Game-----------------------*/
+
+
+.game {
+    height: 10vh;
+}
+
+.why-1 {
+    display: none;
+}
+
+.why-2 {
+    display: none;
+}
+
+.why-3 {
+    display: none;
+}
+
+.why-4 {
+    display: none;
+}
+
+.game-frame {
+    display: none;
+    transform: translate(-50%,-50%);
+    height: 250px;
+    width: 400px;
+}
+
+
+
 
 /*-----------------------Footer-----------------------*/
 
@@ -623,8 +659,8 @@ mark {
     .social {
         position: absolute;
         z-index: 999999999;
-        top: 2365px;
-        right: 200px;
+        top: 2450px;
+        right: 190px;
         height: 100px;
         width: 100px;
     }
