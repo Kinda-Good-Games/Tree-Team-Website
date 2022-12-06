@@ -4,5 +4,5 @@
 -----------
 
 ////FIX OR CHANGE////
-3. footer responsive
-2. bilder dinfen für den footer
+1. game sec responsive
+2. footer responsive
