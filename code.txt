@@ -13,6 +13,17 @@
 
 
 
+‹div class="social-links">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-youtube-play"></i>
+‹p>© 2021 Art Friseur</p>
+</div>
+
+
+
+
 
 
 CSSSSSSSSSSSSSSSSSSSS
