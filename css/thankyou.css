@@ -69,6 +69,13 @@
     padding-right: 25px;
 }
 
+.text {
+    width: 600px;
+    position: absolute;
+    left: 34%;
+    top: 69%;
+}
+
 button {
     background-color: var(--lightgreen);
     height: 50px;
@@ -103,7 +110,7 @@ button a {
 
 @media only screen and (max-width: 600px) {
     .thank-you-img {
-        top: 50%;
+        top: 47%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 30vh;
@@ -116,5 +123,13 @@ button a {
         background-size: cover;
         position: absolute;
         border-radius: 50px;
+    }
+
+    .text {
+        width: 500px;
+        position: absolute;
+        padding: 20px;
+        left: -1%;
+        top: 60%;
     }
 }
