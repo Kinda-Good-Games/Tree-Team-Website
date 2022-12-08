@@ -32,5 +32,5 @@ function chngstt6() {
 }
 
 function donate() {
-    window.open("thankyou.html")
+    window.open("thankyou.html");
 }

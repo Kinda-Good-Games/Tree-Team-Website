@@ -7,6 +7,8 @@ header.addEventListener("click", () => {
   window.location.reload();
 })
 
+
+
 function gamemobile(window_size) {
     if (window_size.matches) {
       mobile_Game.style.display = "grid";

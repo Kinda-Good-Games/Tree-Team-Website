@@ -38,6 +38,10 @@
 
 
 /*-----------------------Sections-----------------------*/
+body {
+    background-color: #000;
+}
+
 .header {
     min-height: 125vh;
     background-image: url('../bäume/headerback.jpg');
@@ -393,7 +397,7 @@ a:hover {
 
 .social {
     position: absolute;
-    top: 2738px;
+    top: 2638px;
     right: 880px;
     height: 150px;
     width: 150px;
@@ -407,6 +411,48 @@ a:hover {
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
+
+
+.socials {
+    position: absolute;
+    z-index: 999999999;
+    top: 2570px;
+    right: 580px;
+    height: 300px;
+    width: 850px;
+}
+
+.socials .soc-1 {
+    position: absolute;
+    top: 90px;
+    left: 230px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.socials .soc-2 {
+    position: absolute;
+    top: 90px;
+    left: 680px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.socials .soc-1 a, .socials .soc-2 a {
+    overflow-y: hidden;
+    border-radius: 10px;
+    height: 40px;
+    width: 50px;
+    color: var(--lightgreen);
+}
+
+ i {
+    transform: scale(.9);
+} 
 
 
 
@@ -455,6 +501,13 @@ a:hover {
 
 .mobile-game {
     display: none;
+    position: absolute;
+    top: 950px;
+    left: 45px;
+    background-color: var(--verydarkgreen);
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
 }
 
 
@@ -589,30 +642,45 @@ mark {
 
 
 .game {
-    height: 10vh;
+    height: 130vh;
 }
 
 .why-1 {
-    display: none;
+    display: grid;
+    position: absolute;
+    top: 1100px
 }
 
 .why-2 {
-    display: none;
+    display: grid;
+    position: absolute;
+    z-index: 10;
+    top: 1350px;
+    left: 100px;
+    right: 0;
 }
 
 .why-3 {
-    display: none;
+    display: grid;
+    position: absolute;
+    z-index: 10;
+    top: 1650px;
+    left: 0px;
+    right: 0;
 }
 
 .why-4 {
-    display: none;
+    display: grid;
+    position: absolute;
+    z-index: 10;
+    top: 1900px;
+    left: 100px;
+    right: 0;
 }
 
 .game-frame {
     display: none;
     transform: translate(-50%,-50%);
-    height: 250px;
-    width: 400px;
 }
 
 
@@ -655,14 +723,54 @@ mark {
         color: transparent;
         -webkit-text-fill-color: transparent;
     }
-    
+
     .social {
         position: absolute;
         z-index: 999999999;
-        top: 2450px;
+        top: 2370px;
         right: 190px;
         height: 100px;
         width: 100px;
+    }
+
+    .socials {
+        position: absolute;
+        z-index: 999999999;
+        top: 2270px;
+        right: 80px;
+        height: 500px;
+        width: 350px;
+        padding-right: 5px;
+    }
+
+    .socials .soc-1 {
+        position: absolute;
+        top: 90px;
+        left: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socials .soc-2 {
+        position: absolute;
+        top: 90px;
+        left: 240px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socials .soc-1 a {
+        overflow-y: hidden;
+        height: 40px;
+        width: 40px;
+        color: var(--lightgreen);
+    }
+
+    .socials .soc-2 a {
+        overflow-y: hidden;
+        height: 40px;
+        width: 60px;
+        color: var(--lightgreen);
     }
     
     .cprg p {
