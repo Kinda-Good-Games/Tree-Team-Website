@@ -426,7 +426,6 @@ a:hover {
     position: absolute;
     top: 90px;
     left: 230px;
-    height: 150px;
     display: flex;
     flex-direction: column;
     padding: 10px;
