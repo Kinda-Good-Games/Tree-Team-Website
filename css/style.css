@@ -125,7 +125,7 @@ body {
     top: 5px;
     right: 15px;
     color: var(--lightgreen);
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
   }
   
@@ -397,7 +397,7 @@ a:hover {
 
 .social {
     position: absolute;
-    top: 2638px;
+    top: 2738px;
     right: 880px;
     height: 150px;
     width: 150px;
@@ -416,7 +416,7 @@ a:hover {
 .socials {
     position: absolute;
     z-index: 999999999;
-    top: 2570px;
+    top: 2670px;
     right: 580px;
     height: 300px;
     width: 850px;
@@ -444,13 +444,13 @@ a:hover {
 .socials .soc-1 a, .socials .soc-2 a {
     overflow-y: hidden;
     border-radius: 10px;
-    height: 40px;
+    height: 50px;
     width: 50px;
-    color: var(--lightgreen);
 }
 
  i {
     transform: scale(.9);
+    color: var(--lightgreen);
 } 
 
 
@@ -535,9 +535,102 @@ mark {
 }
 
 
+.github-pf {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999999999999;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.github-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999999999999;
+    height: 300px;
+    width: 500px;
+    background: rgb(3, 82, 13);
+    border-radius: 10px;
+}
+
+.github-btn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: var(--lightgreen);
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
 
 
+.profiles {
+    background-color: var(--lightgreen);
+    height: 200px;
+    border-radius: 10px;
+    width: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.kevin {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--verydarkgreen);
+}
+
+.luan {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--verydarkgreen);
+    margin-left: 20px;
+}
+#kev {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#kevimg {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+#lu {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    right: 10px;
+}
+
+.names {
+    display: flex;
+}
+
+.names h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /*-----------------------MEDIA QUERIES-----------------------*/
@@ -726,7 +819,7 @@ mark {
     .social {
         position: absolute;
         z-index: 999999999;
-        top: 2370px;
+        top: 2770px;
         right: 190px;
         height: 100px;
         width: 100px;
@@ -735,8 +828,8 @@ mark {
     .socials {
         position: absolute;
         z-index: 999999999;
-        top: 2270px;
-        right: 80px;
+        top: 2670px;
+        right: 100px;
         height: 500px;
         width: 350px;
         padding-right: 5px;
@@ -753,7 +846,7 @@ mark {
     .socials .soc-2 {
         position: absolute;
         top: 90px;
-        left: 240px;
+        left: 245px;
         display: flex;
         flex-direction: column;
     }
@@ -761,7 +854,7 @@ mark {
     .socials .soc-1 a {
         overflow-y: hidden;
         height: 40px;
-        width: 40px;
+        width: 60px;
         color: var(--lightgreen);
     }
 
