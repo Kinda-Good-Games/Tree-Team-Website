@@ -397,7 +397,7 @@ a:hover {
 
 .social {
     position: absolute;
-    top: 2738px;
+    top: 2655px;
     right: 880px;
     height: 150px;
     width: 150px;
@@ -416,7 +416,7 @@ a:hover {
 .socials {
     position: absolute;
     z-index: 999999999;
-    top: 2670px;
+    top: 2570px;
     right: 580px;
     height: 300px;
     width: 850px;
@@ -484,6 +484,166 @@ a:hover {
     margin: auto;
 }
 
+/*Scroll2*/
+
+.scroll-down-2 {
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: visible;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 99999;
+    top: 205%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    animation: scroll infinite 2s linear;
+}
+
+
+#img-2 {
+    height: 50px;
+    width: 40px;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    filter: invert(100%);
+    margin: auto;
+}
+
+
+
+/*github*/
+.github-pf {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999999999999;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.github-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999999999999;
+    height: 300px;
+    width: 500px;
+    background: rgb(3, 82, 13);
+    border-radius: 10px;
+}
+
+.github-btn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: var(--lightgreen);
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profiles {
+    background-color: var(--lightgreen);
+    height: 200px;
+    border-radius: 10px;
+    width: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.kevin {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--verydarkgreen);
+    box-shadow: outset 5px 10px 208px #000;
+}
+
+.luan {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--verydarkgreen);
+    margin-left: 20px;
+}
+#kev {
+    position: absolute;
+    top: 130px;
+    right: 53px;
+    z-index: 1;
+    width: 100px;
+    text-align: center;
+    box-shadow: outset 5px 10px 208px #fff;
+}
+
+#kevimg {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 3px solid black;
+    box-shadow: 5px 10px 208px #fff;
+    transition: .5s;
+}
+
+#kevimg:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+
+#lu {
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    right: 50px;
+    z-index: 1;
+    width: 100px;
+    text-align: center;
+    box-shadow: outset 5px 10px 208px #fff;
+}
+
+.names {
+    display: flex;
+}
+
+.names h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#github-header {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 110px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+
+
 
 /*extra*/
 .gradient {
@@ -535,102 +695,7 @@ mark {
 }
 
 
-.github-pf {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999999999999;
-    height: 100vh;
-    width: 100vw;
-    background: rgba(0, 0, 0, 0.5);
-}
 
-.github-card {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 99999999999999;
-    height: 300px;
-    width: 500px;
-    background: rgb(3, 82, 13);
-    border-radius: 10px;
-}
-
-.github-btn {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    color: var(--lightgreen);
-    font-size: 30px;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.profiles {
-    background-color: var(--lightgreen);
-    height: 200px;
-    border-radius: 10px;
-    width: 350px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.kevin {
-    position: absolute;
-    top: 55%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    height: 150px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: var(--verydarkgreen);
-}
-
-.luan {
-    position: absolute;
-    top: 55%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    height: 150px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: var(--verydarkgreen);
-    margin-left: 20px;
-}
-#kev {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
-#kevimg {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-}
-
-#lu {
-    position: absolute;
-    top: 10px;
-    left: 50px;
-    right: 10px;
-}
-
-.names {
-    display: flex;
-}
-
-.names h4 {
-    color: #fff;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-}
 
 
 /*-----------------------MEDIA QUERIES-----------------------*/
@@ -906,6 +971,140 @@ mark {
     filter: invert(100%);
     margin: auto;
 }
+
+.scroll-down-2 {
+    display: none;
+}
+
+
+
+
+
+/*github*/
+.github-pf {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999999999999;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.github-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999999999999;
+    height: 250px;
+    width: 400px;
+    background: rgb(3, 82, 13);
+    border-radius: 10px;
+}
+
+.github-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: var(--lightgreen);
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profiles {
+    background-color: var(--lightgreen);
+    height: 200px;
+    border-radius: 10px;
+    width: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.kevin {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--verydarkgreen);
+    box-shadow: outset 5px 10px 208px #000;
+}
+
+.luan {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--verydarkgreen);
+    margin-left: 20px;
+}
+#kev {
+    position: absolute;
+    top: 130px;
+    right: 53px;
+    z-index: 1;
+    width: 100px;
+    text-align: center;
+    box-shadow: outset 5px 10px 208px #fff;
+}
+
+#kevimg {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 3px solid black;
+    box-shadow: 5px 10px 208px #fff;
+}
+
+#lu {
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    right: 50px;
+    z-index: 1;
+    width: 100px;
+    text-align: center;
+    box-shadow: outset 5px 10px 208px #fff;
+}
+
+.names {
+    display: flex;
+}
+
+.names h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#github-header {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 110px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+
+
+
+
 
     /*Extra*/
     .left-img{
