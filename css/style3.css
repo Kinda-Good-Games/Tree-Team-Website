@@ -1,0 +1,16 @@
+body{
+    color:  #000;
+    background-color: rgb(115, 224, 115);
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+p {
+    font-size: large;
+}
+
+#bild {
+    height: 300px;
+    width: 300px;
+}
