@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"19ddc16f-6839-4172-b4c4-9c7b161c0ba9\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Questions\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"questions\": [\r\n         
+    {\r\n            \"<QuestionText>k__BackingField\": \"Wie viele Arten von B\xE4umen
+    gibt es?\",\r\n            \"PossibleAnswers\": [\r\n              \"35.000-50.000\",\r\n             
+    \"40.000-90.000\",\r\n              \"60.000 - 100.000 \"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 2,\r\n            \"<Comment>k__BackingField\":
+    \"Ganz sch\xF6n viele!\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"B\xE4ume sind schlecht f\xFCr die Umwelt\",\r\n            \"PossibleAnswers\":
+    [\r\n              \"wahr\",\r\n              \"falsch\"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 0,\r\n            \"<Comment>k__BackingField\":
+    \"Nat\xFCrlich!\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"B\xE4ume sind Pflanzen\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"wahr\",\r\n              \"falsch\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    0,\r\n            \"<Comment>k__BackingField\": \"Klar!\"\r\n          },\r\n         
+    {\r\n            \"<QuestionText>k__BackingField\": \"Was sind die Hauptbestandteile
+    des Holzes eines Baumes?\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"Zaluse Cl\xF6rof\xF6 Quarz\",\r\n              \"Zellulose Lignin Harz\",\r\n             
+    \" Zellenmembran lagunin Harz4\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    1,\r\n            \"<Comment>k__BackingField\": \"Super Antwort! (Was ist aber
+    mit den arbeitslosen B\xE4umen)\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"Viele Lebensmittel kommen von B\xE4umen\",\r\n           
+    \"PossibleAnswers\": [\r\n              \"wahr\",\r\n              \"falsch\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 0,\r\n            \"<Comment>k__BackingField\":
+    \"Ganz sch\xF6n viele!\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"Wie werden B\xE4ume noch bezeichnet\",\r\n            \"PossibleAnswers\":
+    [\r\n              \"Geh\xE4lze\",\r\n              \"Gehloze\",\r\n             
+    \"Geholze\",\r\n              \"G\xE4holze\"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 2,\r\n            \"<Comment>k__BackingField\":
+    \"Herr Ostermeier w\xE4re stolz\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"Wieso sammeln wir Spenden?\",\r\n           
+    \"PossibleAnswers\": [\r\n              \"Um mehr b\xE4ume zu Pflanzen\",\r\n             
+    \"Um noch mehr zu Roden\",\r\n              \"Um mehr B\xE4ume zu f\xE4llen\",\r\n             
+    \"F\xFCr unsere eigenen Taschen\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    0,\r\n            \"<Comment>k__BackingField\": \"N\xF6, wir tuen eigentlich
+    nur so als w\xFCrden wir Spenden sammeln und die Erde damit retten (Spa\xDF)\"\r\n         
+    },\r\n          {\r\n            \"<QuestionText>k__BackingField\": \"Wie werden
+    B\xE4ume bezeichnet die keine Bl\xE4tter tragen?\",\r\n            \"PossibleAnswers\":
+    [\r\n              \" Lauchb\xE4ume\",\r\n              \"Nadelb\xE4ume\",\r\n             
+    \"Nagelb\xE4ume\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    1,\r\n            \"<Comment>k__BackingField\": \"Gut gemacht!\"\r\n         
+    },\r\n          {\r\n            \"<QuestionText>k__BackingField\": \"Wieso brauchen
+    wir mehr B\xE4ume?\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"Zum Atmen\",\r\n              \" Zum F\xE4llen\",\r\n              \"Zum Roden\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 0,\r\n            \"<Comment>k__BackingField\":
+    \"Durch Photosynthese kriegen wir neue Luft. B\xE4ume sind auch als nat\xFCrliche
+    Filter bekannt\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"Why are Trees endangered\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"we eat them\",\r\n              \"we turn them into sweaters\",\r\n             
+    \"we enslave them\",\r\n              \"we destroy them to get wood\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 3,\r\n            \"<Comment>k__BackingField\":
+    \"Wood is widely used for furniture and more\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"Why are Trees endangered\",\r\n           
+    \"PossibleAnswers\": [\r\n              \"we eat them\",\r\n              \"we
+    turn them into sweaters\",\r\n              \"we enslave them\",\r\n             
+    \"we destroy them to get wood\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    3,\r\n            \"<Comment>k__BackingField\": \"Wood is widely used for furniture
+    and more\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"Why are Trees endangered\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"we eat them\",\r\n              \"we turn them into sweaters\",\r\n             
+    \"we enslave them\",\r\n              \"we destroy them to get wood\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 3,\r\n            \"<Comment>k__BackingField\":
+    \"Wood is widely used for furniture and more\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"What do trees do?\",\r\n            \"PossibleAnswers\":
+    [\r\n              \"Kill People\",\r\n              \"Photosynthesis\",\r\n             
+    \"Eating Animals\",\r\n              \"Nothing.\"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 1,\r\n            \"<Comment>k__BackingField\":
+    \"Trees are very important for our lives!\"\r\n          }\r\n        ]\r\n     
+    }\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"19ddc16f-6839-4172-b4c4-9c7b161c0ba9\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Questions\",\r\n      \"type\": \"json\",\r\n     
+    \"schemaId\": null,\r\n      \"value\": {\r\n        \"questions\": [\r\n         
+    {\r\n            \"<QuestionText>k__BackingField\": \"Wie viele Arten von B\xE4umen
+    gibt es?\",\r\n            \"PossibleAnswers\": [\r\n              \"35.000-50.000\",\r\n             
+    \"40.000-90.000\",\r\n              \"60.000 - 100.000 \"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 2,\r\n            \"<Comment>k__BackingField\":
+    \"Ganz sch\xF6n viele!\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"B\xE4ume sind schlecht f\xFCr die Umwelt\",\r\n            \"PossibleAnswers\":
+    [\r\n              \"wahr\",\r\n              \"falsch\"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 0,\r\n            \"<Comment>k__BackingField\":
+    \"Nat\xFCrlich!\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"B\xE4ume sind Pflanzen\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"wahr\",\r\n              \"falsch\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    0,\r\n            \"<Comment>k__BackingField\": \"Klar!\"\r\n          },\r\n         
+    {\r\n            \"<QuestionText>k__BackingField\": \"Was sind die Hauptbestandteile
+    des Holzes eines Baumes?\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"Zaluse Cl\xF6rof\xF6 Quarz\",\r\n              \"Zellulose Lignin Harz\",\r\n             
+    \" Zellenmembran lagunin Harz4\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    1,\r\n            \"<Comment>k__BackingField\": \"Super Antwort! (Was ist aber
+    mit den arbeitslosen B\xE4umen)\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"Viele Lebensmittel kommen von B\xE4umen\",\r\n           
+    \"PossibleAnswers\": [\r\n              \"wahr\",\r\n              \"falsch\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 0,\r\n            \"<Comment>k__BackingField\":
+    \"Ganz sch\xF6n viele!\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"Wie werden B\xE4ume noch bezeichnet\",\r\n            \"PossibleAnswers\":
+    [\r\n              \"Geh\xE4lze\",\r\n              \"Gehloze\",\r\n             
+    \"Geholze\",\r\n              \"G\xE4holze\"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 2,\r\n            \"<Comment>k__BackingField\":
+    \"Herr Ostermeier w\xE4re stolz\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"Wieso sammeln wir Spenden?\",\r\n           
+    \"PossibleAnswers\": [\r\n              \"Um mehr b\xE4ume zu Pflanzen\",\r\n             
+    \"Um noch mehr zu Roden\",\r\n              \"Um mehr B\xE4ume zu f\xE4llen\",\r\n             
+    \"F\xFCr unsere eigenen Taschen\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    0,\r\n            \"<Comment>k__BackingField\": \"N\xF6, wir tuen eigentlich
+    nur so als w\xFCrden wir Spenden sammeln und die Erde damit retten (Spa\xDF)\"\r\n         
+    },\r\n          {\r\n            \"<QuestionText>k__BackingField\": \"Wie werden
+    B\xE4ume bezeichnet die keine Bl\xE4tter tragen?\",\r\n            \"PossibleAnswers\":
+    [\r\n              \" Lauchb\xE4ume\",\r\n              \"Nadelb\xE4ume\",\r\n             
+    \"Nagelb\xE4ume\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    1,\r\n            \"<Comment>k__BackingField\": \"Gut gemacht!\"\r\n         
+    },\r\n          {\r\n            \"<QuestionText>k__BackingField\": \"Wieso brauchen
+    wir mehr B\xE4ume?\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"Zum Atmen\",\r\n              \" Zum F\xE4llen\",\r\n              \"Zum Roden\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 0,\r\n            \"<Comment>k__BackingField\":
+    \"Durch Photosynthese kriegen wir neue Luft. B\xE4ume sind auch als nat\xFCrliche
+    Filter bekannt\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"Why are Trees endangered\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"we eat them\",\r\n              \"we turn them into sweaters\",\r\n             
+    \"we enslave them\",\r\n              \"we destroy them to get wood\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 3,\r\n            \"<Comment>k__BackingField\":
+    \"Wood is widely used for furniture and more\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"Why are Trees endangered\",\r\n           
+    \"PossibleAnswers\": [\r\n              \"we eat them\",\r\n              \"we
+    turn them into sweaters\",\r\n              \"we enslave them\",\r\n             
+    \"we destroy them to get wood\"\r\n            ],\r\n            \"<RightAnswer>k__BackingField\":
+    3,\r\n            \"<Comment>k__BackingField\": \"Wood is widely used for furniture
+    and more\"\r\n          },\r\n          {\r\n            \"<QuestionText>k__BackingField\":
+    \"Why are Trees endangered\",\r\n            \"PossibleAnswers\": [\r\n             
+    \"we eat them\",\r\n              \"we turn them into sweaters\",\r\n             
+    \"we enslave them\",\r\n              \"we destroy them to get wood\"\r\n           
+    ],\r\n            \"<RightAnswer>k__BackingField\": 3,\r\n            \"<Comment>k__BackingField\":
+    \"Wood is widely used for furniture and more\"\r\n          },\r\n          {\r\n           
+    \"<QuestionText>k__BackingField\": \"What do trees do?\",\r\n            \"PossibleAnswers\":
+    [\r\n              \"Kill People\",\r\n              \"Photosynthesis\",\r\n             
+    \"Eating Animals\",\r\n              \"Nothing.\"\r\n            ],\r\n           
+    \"<RightAnswer>k__BackingField\": 1,\r\n            \"<Comment>k__BackingField\":
+    \"Trees are very important for our lives!\"\r\n          }\r\n        ]\r\n     
+    }\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"4aba7179-0e8f-42a1-a4ec-655e6c0c1f6b\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"d378e4ca-7795-49d3-9249-9e68016a3f55\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2022-11-28T19:58:32Z\",\r\n    \"updatedAt\":
+    \"2022-11-28T19:58:32Z\"\r\n  }\r\n]"
