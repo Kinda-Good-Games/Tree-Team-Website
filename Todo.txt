@@ -1,8 +1,0 @@
------ TO DO -----
-
-////ADD////
------------
-
-////FIX OR CHANGE////
-1. game sec responsive
-2. footer responsive

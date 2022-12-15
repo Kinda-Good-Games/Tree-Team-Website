@@ -1131,6 +1131,7 @@ mark {
 /*-----------------------ANIMATIONS-----------------------*/
 
 
+
 @keyframes scroll {
     0%   {transform: translateY(-5px);}
     50% {transform: translateY(5px);}

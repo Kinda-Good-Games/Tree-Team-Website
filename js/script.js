@@ -23,4 +23,4 @@ function gamemobile(window_size) {
   }
 
 gamemobile(window_size);
-window_size.addListener(gamemobile);
+window_size.addEventListener(gamemobile);
