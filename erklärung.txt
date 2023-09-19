@@ -1,0 +1,31 @@
+THE V!RUS – Ein Spiel von Kevin und Luan
+
+Kurzübersicht
+THE V!RUS ist ein Spiel, in der man die Rolle eines Computervirus übernimmt. Dabei versucht man Geld durch 
+verschiedene Methoden zu stehlen und sich ins Terminal einzuhacken, damit man sich selbst verbreiten kann. 
+Das Spiel zeichnet sich durch ein hervorragendes Stealth Gameplay aus, in dem man durch diverse kreative 
+Minispiele sich durchkämpfen muss, wie zum Beispiel die Oma des Opfers durch einen Enkeltrickbetrug beklauen 
+oder durch die Bankkonten das Geld stehlen. Der Stealth-aspekt zeigt sich besonders darüber, dass man permanent 
+von Antiviren verfolgt wird. Jedoch wird statt einem verängstigten und unwohlen Gefühl, was oft der Fall in Stealth 
+Spiele ist, damit man sich wie ein echter Spion oder Einbrecher fühlt, hier eher eine Machtposition dem Spieler 
+vermittelt, da der Spieler hier in der Kontrolle ist, da der Spieler in der Lage ist den Computer zu beschädigen 
+und das Geld zu stehlen. Dies wird auch noch durch verschiedene Gameplay Elemente weiter illustriert, wie 
+zum Beispiel narrativ darüber, wie simpel der Spieler das Opfer beklauen kann oder aber auch die vielen 
+Möglichkeiten, die der Spieler hat, um das Opfer zu schaden. Ein weiteres wichtiges Merkmal ist die 
+Geschwindigkeit des Spielers, da dieser hier schnell ist und schneller als der Wächter wird auch leicht 
+auch eine mächtigere Position vermittelt, da verglichen dazu oft in Stealth Spiele eine niedrige Geschwindigkeit 
+verwendet wird, nochmal die Angst und Nervosität hervorzuheben und den Spieler dieses „schleichende“ 
+und hinterhältige Gefühl zu geben.
+
+
+HINWEIS: ALLE ASSETS WURDEN SELBSTERSTELLT ODER GENERIERT DURCH ENTSPRECHENDE PROGRAMME (SFXR bzw. JFXR).
+Die verschiedenen Assets verleihen unterstützen hierbei die Prämisse des Spiels und unterstützen das 
+gesamte Thema innerhalb des Spiels. Die Assets wurden so designed, sodass man sich wie in einem echten Desktop 
+fühlt. Dies steigt die Immersion des Spieles, was wichtig ist, damit man sich auch wirklich als Computervirus 
+sich fühlt, der den Computer des Opfers „erkundet“. Ein weiterer wichtiger Punkt ist, dass durch energetische 
+Musik auch noch die Mächtigkeit des Spielers etwas hervorhebt, da man sich dadurch schon mehr so fühlt, als 
+müsste man versuchen die verschiedenen Daten eines Opfers zu stehlen. Hinzu kommt, dass die ganzen Soundeffekte 
+8-Bit Soundeffekte sind, welche oft mit Computer und älteren Videospiele / Computer assoziiert werden, was das 
+ganze Spiel auch noch viel immersiver wirken lässt. Die ganzen Icons sind dabei angelehnt an Programme in der 
+echten Welt (Discord, Chrome) oder wurden versucht so gut wie möglich nachgemacht zu werden (File Explorer, 
+Terminal, Mail).
